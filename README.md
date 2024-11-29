@@ -11,7 +11,7 @@ Mi Proyecto es una aplicación web construida con .NET 8, utilizando el patrón 
 
 ## Clonar el Repositorio
 Clona el repositorio en tu máquina local:
-```bash
+
 git clone <URL-del-repositorio>
 cd MiProyecto
 ## Configuración de la Base de Datos
@@ -20,7 +20,7 @@ Abre el archivo `appsettings.json` en la raíz del proyecto. Encuentra la secci�
 ## Crear la Base de Datos
 Si aún no tienes la base de datos configurada, puedes crearla ejecutando las migraciones con el siguiente comando:
 
-```bash
+
 
 dotnet ef database update
 
